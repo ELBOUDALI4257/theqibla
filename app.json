@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "Qibla App",
-    "description": "A simple qibla app built with expo & react-native.",
-    "slug": "compass",
+    "name": "The Qibla",
+    "description": "This application helps you determine the direction Qibla's direction depending on your location, and provides you with the current weather status in your city, It also provides you with the ability to browse a set of authentic hadiths.",
+    "slug": "theqibla",
     "platforms": [
       "ios",
       "android",
       "web"
     ],
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -25,10 +25,12 @@
     "ios": {
       "supportsTablet": true,
       "requireFullScreen": true,
-      "bundleIdentifier": "ma.qibla.app"
+      "bundleIdentifier": "ma.braingcoding.theqibla",
+      "buildNumber": "1.1.0"
     },
     "android": {
-      "package": "ma.qibla.app"
+      "package": "ma.braingcoding.theqibla",
+      "versionCode": 2
     }
   }
 }
